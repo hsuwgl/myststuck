@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Myststuck</title>
+    <title>Myststuck</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -19,20 +19,20 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Myststuck</div>
+        <div id="unity-build-title"></div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/b7.loader.js";
+      var loaderUrl = buildUrl + "/myststuck.loader.js";
       var config = {
-        dataUrl: buildUrl + "/b7.data.unityweb",
-        frameworkUrl: buildUrl + "/b7.framework.js.unityweb",
-        codeUrl: buildUrl + "/b7.wasm.unityweb",
+        dataUrl: "Build/myststuck.data.unityweb",
+        frameworkUrl: "Build/myststuck.framework.js.unityweb",
+        codeUrl: "Build/myststuck.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
+        companyName: "vxpm",
         productName: "Myststuck",
-        productVersion: "0.1",
+        productVersion: "1.0",
       };
 
       var container = document.querySelector("#unity-container");
